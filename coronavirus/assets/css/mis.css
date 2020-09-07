@@ -1,0 +1,63 @@
+.high {
+  border-top: solid;
+  border-width: 30px;
+  border-color: #c23b22;
+  padding-left: 8px;
+  background: rgb(232,146,130);
+  background: linear-gradient(180deg, rgba(232,146,130,1) 0%, rgba(255,255,255,1) 350px);
+}
+.moderate {
+  border-top: solid;
+  border-width: 30px;
+  border-color: #fddd5c;
+  padding-left: 8px;
+  background: #ffeead;
+  background: -moz-linear-gradient(top,  #ffeead 0%, #ffffff 350px);
+  background: -webkit-linear-gradient(top,  #ffeead 0%,#ffffff 350px);
+  background: linear-gradient(to bottom,  #ffeead 0%,#ffffff 350px);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffeead', endColorstr='#ffffff',GradientType=0 );
+}
+.low {
+  border-top: solid;
+  border-width: 30px;
+  border-color: #77dd77;
+  padding-left: 8px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  background: rgb(255,255,255,1);
+background: linear-gradient(180deg, rgba(190,228,190,1) 0%, rgba(255,255,255,1) 350px);
+}
+.restricted-use {
+  background-color: #c23b22;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.training-videos {
+  background-color: #77dd77;
+}
+.ppe-hazard {
+  text-align: center;
+
+}
+.ppe-hazard img {
+  width: 80px;
+  height: 80px;
+}
+
+
+.risk-level {
+  text-align: right;
+  vertical-align: middle;
+  display: inline-block;
+}
+body {
+  margin: 0px;
+  padding-top: 30px;
+}
+footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
