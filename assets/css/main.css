@@ -392,6 +392,12 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	.coronavirus {
+	  color: #FFA500;
+	}
+	.coronavirus strong {
+		color: #FFA500;
+	}
 	h1, h2, h3, h4, h5, h6 {
 		color: #fff;
 		font-weight: 700;
